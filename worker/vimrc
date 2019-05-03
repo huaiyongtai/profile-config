@@ -54,7 +54,7 @@ let g:limelight_priority = -1
 "let g:goyo_width = 86
 "let g:goyo_height = 90%
 "let g:goyo_linenr = 0
-" 进入goyo模式后自动触发limelight，退出则关闭
+"进入goyo模式后自动触发limelight，退出则关闭
 autocmd! User GoyoEnter Limelight
 autocmd! User GoyoLeave Limelight!
 
