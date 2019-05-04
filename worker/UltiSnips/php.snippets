@@ -29,12 +29,12 @@ function set${1/\w+\s*/\u$0/}(${4:${2/(void|string|int|integer|double|float|obje
 $0
 endsnippet
 
-snippet pdate "当前时间" i
+snippet pdate "php时间" i
 date('Y-m-d H:i:s')$1
 endsnippet
 
-snippet date "当前时间" b
-Today is the `date +%Y-%m-%d`
+snippet date "当前时间" i
+Today is the `date +%Y-%m-%d %H:%m`
 endsnippet
 
 snippet testcase6 "class XYZTest extends TestCase { ... }"
