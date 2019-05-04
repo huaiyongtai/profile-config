@@ -140,10 +140,9 @@ set shiftwidth=4
 set softtabstop=4
 " set noexpandtab / expandtab
 set expandtab
-
 %retab!
 
-set nu
+set number
 set showmatch
 
 "根据文件类型设置缩进格式
