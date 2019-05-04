@@ -29,8 +29,12 @@ function set${1/\w+\s*/\u$0/}(${4:${2/(void|string|int|integer|double|float|obje
 $0
 endsnippet
 
+snippet pdate "当前时间" b
+Today is the `date +%Y-%m-%d`
+endsnippet
+
 snippet date "当前时间" b
-Today is the `date +%Y.%m.%y`.
+Today is the `date +%Y-%m-%d`
 endsnippet
 
 snippet testcase6 "class XYZTest extends TestCase { ... }"
