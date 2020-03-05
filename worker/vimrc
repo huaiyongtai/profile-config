@@ -148,6 +148,7 @@ set expandtab
 set number
 set showmatch
 
+"文件后缀 重新识别
 au BufNewFile,BufRead *.php.* set filetype=php
 
 "根据文件类型设置缩进格式
