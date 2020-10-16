@@ -151,6 +151,7 @@ set showmatch
 "文件后缀 重新识别
 au BufNewFile,BufRead *.php.* set filetype=php
 au BufNewFile,BufRead *.conf  set filetype=php
+au BufNewFile,BufRead *.conf.*  set filetype=php
 
 "根据文件类型设置缩进格式
 "au FileType html,python,vim,javascript setl shiftwidth=2
